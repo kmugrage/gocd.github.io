@@ -49,6 +49,8 @@ navigation:
       url: /community/partners.html
     - text: Plugins
       url: /community/plugins.html
+    - text: Ambassador Program
+      url: /community/ambassador_program.html
 - root: Download
   url: /download/
   icon: icon-download
