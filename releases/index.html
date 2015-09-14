@@ -1,13 +1,13 @@
 ---
 layout: default
 title:  Release Notes
-subtitle: Version-specific information about Go releases
+subtitle: Version-specific information about GoCD releases
 title_tag:
 meta_tag_description:
 meta_tag_keywords:
 ---
 
-<p>Check out "Enhacements" and "Bug fixes" for specific versions of Go below. As always, feel free to tell us what you think, or file a bug on <a href="https://github.com/gocd/gocd/issues/new" target="_blank">GitHub</a>.</p>
+<p>Check out "Enhacements" and "Bug fixes" for specific versions of GoCD below. As always, feel free to tell us what you think, or file a bug on <a href="https://github.com/gocd/gocd/issues/new" target="_blank">GitHub</a>.</p>
 
 <p><span>We try our best to credit all contributors. Apologies if we miss you out. Let us know and we will change this.</span>
 <span>Thanks to everyone for contributing patches, feature requests, reporting issues and participating in various discussions.</span></p>
@@ -37,8 +37,8 @@ meta_tag_keywords:
       <h5>Improvements to the console log</h5>
 
       <p>
-        Go now supports rendering of ANSI color codes to show you much more beautiful console logs.
-        Additionally, Go will automatically follow the logs as your build produces it, very much like your favorite
+        GoCD now supports rendering of ANSI color codes to show you much more beautiful console logs.
+        Additionally, GoCD will automatically follow the logs as your build produces it, very much like your favorite
         terminal program.
       </p>
 
@@ -51,7 +51,7 @@ meta_tag_keywords:
       <h5>Authentication end-point</h5>
 
       <p>
-        With the newly exposed authentication end-point, Go users can now add custom authentication schemes through plugins. Read the <a href="http://www.go.cd/2015/06/18/authentication-end-point.html">blog post</a> for details.
+        With the newly exposed authentication end-point, GoCD users can now add custom authentication schemes through plugins. Read the <a href="http://www.go.cd/2015/06/18/authentication-end-point.html">blog post</a> for details.
       </p>
 
       <figure class="extra_small_image">
@@ -134,7 +134,7 @@ meta_tag_keywords:
     <div class="section">
       <h5>Thanks!</h5>
       <p>
-        <a href="https://github.com/ctorpe">@ctorpe</a>, <a href="https://github.com/thenathanjones">@thenathanjones</a>, <a href="https://github.com/nfisher">@nfisher</a>, <a href="https://github.com/paulclarkin">@paulclarkin</a>, <a href="https://github.com/Skarlso">@skarlso</a> for making Go better.
+        <a href="https://github.com/ctorpe">@ctorpe</a>, <a href="https://github.com/thenathanjones">@thenathanjones</a>, <a href="https://github.com/nfisher">@nfisher</a>, <a href="https://github.com/paulclarkin">@paulclarkin</a>, <a href="https://github.com/Skarlso">@skarlso</a> for making GoCD better.
       </p>
     </div>
   </div>
@@ -153,7 +153,7 @@ meta_tag_keywords:
 
       <p>
       Support for this endpoint brought along support for GitHub pull requests, contributed by an external contributor
-      <a href="https://github.com/ashwanthkumar">@ashwanthkumar</a> (so exciting!), with support from a Go core
+      <a href="https://github.com/ashwanthkumar">@ashwanthkumar</a> (so exciting!), with support from a GoCD core
       contributor, <a href="https://github.com/srinivasupadhya/">@srinivasupadhya</a>. You’ll never need to wish that Go
       supported your favorite kind of material repository, you can implement support for it yourself!
       </p>
@@ -180,8 +180,8 @@ meta_tag_keywords:
       <h5>New plugin endpoint for "Notifications"</h5>
 
       <p>
-      Continuing on the path of opening up different parts of Go for extension, Go 15.1 introduces a new plugin endpoint
-      for notifications. At this point, Go notifies the plugin of changes in the status of every stage, as it happens!
+      Continuing on the path of opening up different parts of GoCD for extension, GoCD 15.1 introduces a new plugin endpoint
+      for notifications. At this point, GoCD notifies the plugin of changes in the status of every stage, as it happens!
       This allows for quite a lot of use cases, and we are excited to see plugins written against this endpoint even
       before release (yay, open source!).
       </p>
@@ -198,14 +198,14 @@ meta_tag_keywords:
       </p>
 
       <p>
-      You can see all of those plugins on the <a href="http://www.go.cd/community/plugins#notification-plugins">Go community
+      You can see all of those plugins on the <a href="http://www.go.cd/community/plugins#notification-plugins">GoCD community
         plugins page</a>. See how to write one yourself, <a
         href="http://www.go.cd/documentation/user/current/extension_points/notification_extension.html">here</a>.
       </p>
 
       <h5>Pipeline label shortening</h5>
       <p>
-      This contribution by <a href="https://github.com/alexschwartz">@alexschwartz</a> helps declutter the Go Dashboard,
+      This contribution by <a href="https://github.com/alexschwartz">@alexschwartz</a> helps declutter the GoCD Dashboard,
       by allowing the pipeline label to be trimmed, per material. This feature is really useful when dealing with
       unwieldy 40 character SHAs in pipelines with git/mercurial materials in them. This feature allows this:
       </p>
@@ -229,7 +229,7 @@ meta_tag_keywords:
 
       <h5>Timestamps in console logs</h5>
       <p>
-      Starting from Go 15.1, Go’s console logs will have timestamps for every line. This is very useful for finding out
+      Starting from GoCD 15.1, Go’s console logs will have timestamps for every line. This is very useful for finding out
       long-running parts of tasks. Here’s how it looks:
       </p>
 
@@ -243,8 +243,8 @@ meta_tag_keywords:
 
       <ul>
         <li><a href="https://github.com/gocd/gocd/pull/848">#848</a> - Support for Mercurial versions 2.0 and greater.</li>
-        <li><a href="https://github.com/gocd/gocd/pull/781">#781</a> - Post-commit hook for Mercurial (contribution by Go team alumnus, <a href="https://github.com/sachinsudheendra">@sachinsudheendra</a>).</li>
-        <li><a href="https://github.com/gocd/gocd/pull/768">#768</a> - A beta feature to upload plugins directly from within the Go plugins tab (contribution by <a href="https://github.com/pwen">@pwen</a> and <a href="https://github.com/pamo">@pamo</a>).</li>
+        <li><a href="https://github.com/gocd/gocd/pull/781">#781</a> - Post-commit hook for Mercurial (contribution by GoCD team alumnus, <a href="https://github.com/sachinsudheendra">@sachinsudheendra</a>).</li>
+        <li><a href="https://github.com/gocd/gocd/pull/768">#768</a> - A beta feature to upload plugins directly from within the GoCD plugins tab (contribution by <a href="https://github.com/pwen">@pwen</a> and <a href="https://github.com/pamo">@pamo</a>).</li>
         <li><a href="https://github.com/gocd/gocd/pull/700">#700</a> - Run multiple agents as services - for Linux (contribution by <a href="https://github.com/bernardn">@bernardn</a>).</li>
         <li><a href="https://github.com/gocd/gocd/issues/400">#400</a> - Large part of a long-pending upgrade from Jetty 6 to Jetty 9 (turned off, by default in 15.1 - Waiting for some performance fixes on Jetty’s side).</li>
         <li><a href="https://github.com/gocd/gocd/issues/104">#104</a> - Agents do not restart because of a server restart, any more (plugin sync issue fixed).</li>
@@ -311,7 +311,7 @@ meta_tag_keywords:
     <h5>Bug Fixes</h5>
     <ul>
       <li><a href="https://github.com/gocd/gocd/issues/315">315</a> - Pipeline label was not getting resolved in case of auto trigger.</li>
-      <li><a href="https://github.com/gocd/gocd/issues/403">403</a> - If Go server has firewall restrictions on outgoing connections, Xml test artifacts with dtd specified used to cause problems while uploading.</li>
+      <li><a href="https://github.com/gocd/gocd/issues/403">403</a> - If GoCD server has firewall restrictions on outgoing connections, Xml test artifacts with dtd specified used to cause problems while uploading.</li>
       <li><a href="https://github.com/gocd/gocd/issues/469">469</a> - Fixed logged in session timeout. Thanks <a href="https://github.com/greenmoss">@greenmoss</a> for reporting the issue.</li>
       <li><a href="https://github.com/gocd/gocd/issues/297">297</a> - Resource and personalise drop-downs were not showing up properly on some versions of chrome.</li>
       <li><a href="https://github.com/gocd/gocd/issues/482">482</a> - In Value Stream Map, material circle was not being rendered properly. Thanks <a href="https://github.com/dvarchev">@dvarchev</a> for investigating and sending a  patch.</li>
@@ -321,7 +321,7 @@ meta_tag_keywords:
     </ul>
     <h5>Other</h5>
     <ul>
-      <li><a href="https://github.com/gocd/gocd/issues/659">659</a> - Go has new <a href="http://www.go.cd/documentation/user/current">user documentation</a>. A big thankyou to <a href="https://github.com/afoster">@afoster</a> for the commits. Thanks <a href="https://github.com/gregoriomelo">@gregoriomelo</a> and <a href="https://github.com/mastojun">@mastojun</a> for your contributions.</li>
+      <li><a href="https://github.com/gocd/gocd/issues/659">659</a> - GoCD has new <a href="http://www.go.cd/documentation/user/current">user documentation</a>. A big thankyou to <a href="https://github.com/afoster">@afoster</a> for the commits. Thanks <a href="https://github.com/gregoriomelo">@gregoriomelo</a> and <a href="https://github.com/mastojun">@mastojun</a> for your contributions.</li>
     </ul>
   </div>
 
@@ -330,7 +330,7 @@ meta_tag_keywords:
     <h4>14.2</h4>
     <h5>Enhancements</h5>
     <ul>
-      <li><a href="https://github.com/gocd/gocd/pull/190">190</a> - Git post commit hook to trigger Go pipeline.</li>
+      <li><a href="https://github.com/gocd/gocd/pull/190">190</a> - Git post commit hook to trigger GoCD pipeline.</li>
       <li><a href="https://github.com/gocd/gocd/pull/271">271</a> - Make card activity gadget work with mingle saas instance.</li>
       <li><a href="https://github.com/gocd/gocd/pull/185">185</a> - Adding a layer of database connection configurations.</li>
       <li><a href="https://github.com/gocd/gocd/pull/203">203</a> - Adding verbosity to exception message while loading DatabaseProvider.</li>
@@ -338,7 +338,7 @@ meta_tag_keywords:
     </ul>
     <h5>Bug Fixes</h5>
     <ul>
-      <li><a href="https://github.com/gocd/gocd/pull/286">286</a> - Go server logs for mac installers are not coming up.</li>
+      <li><a href="https://github.com/gocd/gocd/pull/286">286</a> - GoCD server logs for mac installers are not coming up.</li>
       <li><a href="https://github.com/gocd/gocd/pull/196">196</a> - Cannot save a job which has colon (:) in its Nant Path.</li>
       <li><a href="https://github.com/gocd/gocd/pull/223">223</a> - Large artifact fail to upload.</li>
       <li><a href="https://github.com/gocd/gocd/pull/246">246</a> - Pipeline history view flashes for long pipelines.</li>
@@ -363,7 +363,7 @@ meta_tag_keywords:
       <li>Fixed a corner case issue around job reschedule.</li>
       <li>Fixed issue where SVN post-commit hook was not passing along credentials.</li>
       <li>Fixed issue with adding users via UI with a . (dot) in the username.</li>
-      <li>Go Agent handles UnknownHostException by substituting host name with a generated name.</li>
+      <li>GoCD Agent handles UnknownHostException by substituting host name with a generated name.</li>
       <li>Task running executables in the working directory should now be prefixed with ./.</li>
     </ul>
   </div>
