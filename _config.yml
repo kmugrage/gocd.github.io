@@ -9,7 +9,7 @@ navigation:
   url: #
   icon: icon-help-circled-1
   first-level:
-    - text: Why Go?
+    - text: Why GoCD?
       url: /learn-more/why-go.html
     - text: Subscribe to Updates
       url: /subscribe.html
