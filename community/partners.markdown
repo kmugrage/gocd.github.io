@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Partners
-subtitle:  "Go Partners"
+subtitle:  "GoCD Partners"
 title_tag: GO Technology Partners | Consulting Partners |GoCD
 meta_tag_description: GO partners network provides extensive resources, training and professional support to differentiate your business and increase profitability with our Software delivery automation solution
 meta_tag_keywords: go partners, technology partners, consulting partners, professional support, continuous delivery, go
@@ -9,7 +9,7 @@ meta_tag_keywords: go partners, technology partners, consulting partners, profes
 
 ### Professional Support
 
-- <a href="http://www.thoughtworks.com/products/go-continuous-delivery/">ThoughtWorks</a> - The original creators of Go provide professional support and enterprise database connectivity for Go
+- <a href="http://www.thoughtworks.com/products/go-continuous-delivery/">ThoughtWorks</a> - The original creators of GoCD provide professional support and enterprise database connectivity for Go
 
 ### Consulting Partners
 
