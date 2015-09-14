@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Go CD with custom certificates
+title: Using GoCD with custom certificates
 status: public
 type: post
 published: true

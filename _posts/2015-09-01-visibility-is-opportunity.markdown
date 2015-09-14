@@ -20,8 +20,8 @@ We thought it was a good balance of build time and resources needed.
 2014, we had about 12+K tests, including units, functionals and selenium tests.
 The best build time was 1 hour ran in parallel on 46 VMs.
 
-We ran test in parallel by [Go CD] jobs and [TLB].
-There were 46 test jobs in one [Go CD] stage.
+We ran test in parallel by [GoCD] jobs and [TLB].
+There were 46 test jobs in one [GoCD] stage.
 Units, functionals and selenium tests were different.
 So We created 3 [TLB] tasks to distribute them separately.
 We configured [TLB] to distribute tests by test runtime for having similar build time.
@@ -95,7 +95,7 @@ My first hypothesis was [TLB] may not work as expected.
 Because tests didn't seem to be distributed well by runtime.
 To verify my hypothesis, I checked out [TLB] source code. It was more complex than I thought.
 And there is also no way to output more logs to verify it's correctness.
-But [Go CD] has good support for APIs, so I wrote [Ruby script](https://github.com/ThoughtWorksStudios/goapi/blob/master/examples/compare_test_runtime.rb) to verify my hypothesis.
+But [GoCD] has good support for APIs, so I wrote [Ruby script](https://github.com/ThoughtWorksStudios/goapi/blob/master/examples/compare_test_runtime.rb) to verify my hypothesis.
 
 The following chart shows how the test runtime looks like on build. X-axis is job names; y-axis is job runtime.
 
@@ -112,7 +112,7 @@ Because red bars are similar high across all acceptance (selenium test) jobs.
 Blue bars matched what I observed on build time.
 Then I ran same script on more builds. The outputs were similar, just different jobs got longer time to run.
 
-As [Go CD] random picked up build VMs to run any job, it gave me a clue that maybe its build VM performance issue.
+As [GoCD] random picked up build VMs to run any job, it gave me a clue that maybe its build VM performance issue.
 So I wrote another [script](https://github.com/ThoughtWorksStudios/goapi/blob/master/examples/agent_stats.rb) to build the following chart:
 
 ![Go build agent runtime](/images/vms-build-time.jpg)
@@ -127,7 +127,7 @@ After sorted out VM host CPU overload issue, our **build time reduced to 30 minu
 You don't know what you don't know.
 ======================
 
-[Go CD] introduced "timestamps in console logs" in release 15.1.
+[GoCD] introduced "timestamps in console logs" in release 15.1.
 It made build task runtime visible.
 I was not pay attention to the timestamps in the console logs until recently.
 The following screenshot shows an example:
@@ -183,7 +183,7 @@ Thus it gives you more opportunities to understand and solve problem.
 
 
 [Mingle]:                                           https://www.thoughtworks.com/mingle
-[Go CD]:                                            https://go.cd
+[GoCD]:                                            https://go.cd
 [Jeff Norris]:                                      http://www.thoughtworks.com/profiles/jeff-norris
 [TLB]:                                              https://github.com/test-load-balancer/tlb
 [tlb.rb]:                                           https://github.com/test-load-balancer/tlb.rb

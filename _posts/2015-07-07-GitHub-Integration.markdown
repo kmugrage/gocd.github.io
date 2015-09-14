@@ -77,7 +77,7 @@ You can also compare pipelines and get the release notes or changelog straight o
 
 ---
 
-If you think Go CD can provide more integrations to GitHub or provide similar integrations with other tools/services please do leave a comment or ask on the [mailing list](https://groups.google.com/forum/#!forum/go-cd).
+If you think GoCD can provide more integrations to GitHub or provide similar integrations with other tools/services please do leave a comment or ask on the [mailing list](https://groups.google.com/forum/#!forum/go-cd).
 
 ---
 

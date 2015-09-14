@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Sample Go CD Virtualbox based environment
+title: Sample GoCD Virtualbox based environment
 status: public
 type: post
 published: true
 author: Ken Mugrage
 ---
 
-If you're interested in checking out Go CD but don't want to spend the time automating your
+If you're interested in checking out GoCD but don't want to spend the time automating your
 own system, this might be a great option for you. We've created an environment using Vagrant and Virtualbox.
-Once it's up, you'll have a full Go CD installation including several example pipelines.
+Once it's up, you'll have a full GoCD installation including several example pipelines.
 
 __Note: This is an update to a blog post last year. The demo has been modified enough to warrant a new post.__
 

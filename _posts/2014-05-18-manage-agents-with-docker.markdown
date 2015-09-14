@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Go CD and Docker to manage your Go CD agents
+title: Using GoCD and Docker to manage your GoCD agents
 status: public
 type: post
 published: true

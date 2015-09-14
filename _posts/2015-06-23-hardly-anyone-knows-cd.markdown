@@ -19,7 +19,7 @@ The conversations in a trade show booth generally start with the visitor asking 
 
 At this show, when I told people Go is a continuous delivery server I was met with mostly blank stares. This was a conference attended by 100% people who create software for a living. The people attending care enough about their craft to spend (or get their company to spend) a couple thousand US dollars to come. But they had no idea what Continuous Delivery really is. I probably should note, this isn't meant as a knock on that conference at all.
 
-The lack of knowledge is a really bad thing. Not just for the Go CD project, but for software in general. The world runs on software. Too much of that software is bad. The practices around Continuous Delivery could make some of it better, or kill it before it gets out.
+The lack of knowledge is a really bad thing. Not just for the GoCD project, but for software in general. The world runs on software. Too much of that software is bad. The practices around Continuous Delivery could make some of it better, or kill it before it gets out.
 
 ####So what can we do?
 

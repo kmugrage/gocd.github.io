@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Go CD Virtualbox based environment
+title: Sample GoCD Virtualbox based environment
 status: public
 type: post
 published: false

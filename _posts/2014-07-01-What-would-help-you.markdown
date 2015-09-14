@@ -9,7 +9,7 @@ author: Ken Mugrage
 
 One of my personal favorite things about open source software is the ability to get involved. Sometimes the changes made are small, and sometimes they aren't. I've found that this is reasonably easy on small or new projects, and considerably harder on larger or more mature projects. 
 
-Go CD is large and mature.
+GoCD is large and mature.
 
 The existing Go team has done a few things to try to make it easier for you to get involved...
 
