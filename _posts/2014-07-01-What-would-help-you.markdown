@@ -11,7 +11,7 @@ One of my personal favorite things about open source software is the ability to 
 
 GoCD is large and mature.
 
-The existing Go team has done a few things to try to make it easier for you to get involved...
+The existing GoCD team has done a few things to try to make it easier for you to get involved...
 
 * [Vagrant and VirtualBox based dev environment](https://github.com/gocd/go-development-environment-setup)
 * [Constantly growing documentation](https://github.com/gocd/documentation)

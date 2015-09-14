@@ -8,7 +8,7 @@ author: Ken Mugrage
 ---
 
 If you're in London (or would like to go there) we're giving a sneak preview to setting up
-and using a Go development environment on 7 April at Skills Matter. You can register for free
+and using a GoCD development environment on 7 April at Skills Matter. You can register for free
 <a href="https://skillsmatter.com/meetups/6303-introduction-to-developing-open-source-go">here</a>. Huge thanks to Skills Matter for hosting this!
 
 Sessions in other cities will be announced soon as we get very close to releasing the code
@@ -16,9 +16,9 @@ publicly.
 
 In case you're wondering, here are some examples of what we're working on...
 
-- Public Go server - Go was previously built and tested using a pretty big and relatively
-complex pipeline in a Go instance (of course) at ThoughtWorks.
-Go will still be building Go, so we're building out a public facing instance that will
+- Public GoCD server - GoCD was previously built and tested using a pretty big and relatively
+complex pipeline in a GoCD instance (of course) at ThoughtWorks.
+GoCD will still be building GoCD, so we're building out a public facing instance that will
 run tests that wouldn't be practical for contributors to run locally. 
 
 - Updates to code - There's quite a bit going on with the code. Changing the way tests are

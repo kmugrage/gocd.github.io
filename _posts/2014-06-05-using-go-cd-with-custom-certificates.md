@@ -7,7 +7,7 @@ published: true
 author: Sachin Sudheendra
 ---
 
-The following post will help you setting up [Go](http://www.go.cd) to use your custom certificate instead of the self-signed certificate that Go ships with.
+The following post will help you setting up [GoCD](http://www.go.cd) to use your custom certificate instead of the self-signed certificate that GoCD ships with.
 
 Note: This post is a copy of the one available [here](http://sachinsudheendra.github.io/2014/03/08/using-go-cd-with-custom-certificates.html)
 
@@ -42,7 +42,7 @@ Verifying - Enter Export Password:
 
 ## Step 3: Importing the PKCS12 store into the Java Keystore
 
-Once you have the site.pkcs12 file, you would need to import this keystore into the java keystore that Go uses. We will use the **keytool** utility that ships with Java.
+Once you have the site.pkcs12 file, you would need to import this keystore into the java keystore that GoCD uses. We will use the **keytool** utility that ships with Java.
 
 > Note: Destination keystore password **must** be set to **serverKeystorepa55w0rd**
 
@@ -55,9 +55,9 @@ Entry for alias 1 successfully imported.
 Import command completed:  1 entries successfully imported, 0 entries failed or cancelled
 ```
 
-## Step 4: Replacing the current Go keystore with the newly generated one
+## Step 4: Replacing the current GoCD keystore with the newly generated one
 
-Now that the **keystore** (/tmp/keystore) is created, we'll replace the one that Go uses with this new one.
+Now that the **keystore** (/tmp/keystore) is created, we'll replace the one that GoCD uses with this new one.
 
 - Stop go-server
 
@@ -95,7 +95,7 @@ cp /tmp/keystore /etc/go
 sudo /etc/init.d/go-server start
 ```
 
-Post this, when you access the Go Server over HTTPS (https://<go-server>:8154), the certificate served should be the one you added into the keystore.
+Post this, when you access the GoCD Server over HTTPS (https://<go-server>:8154), the certificate served should be the one you added into the keystore.
 
 
 ## References

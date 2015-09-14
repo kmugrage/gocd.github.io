@@ -44,7 +44,7 @@ Completion of this (especially the first time) will take quite a while, dependin
 bandwidth. Vagrant will be downloading the full box image (about 1GB) from Vagrantcloud
 while you wait.
 
-__Note:__ If you have an existing Go installation on the same machine as this virtual machine
+__Note:__ If you have an existing GoCD installation on the same machine as this virtual machine
 you may get a port conflict.
 
 After a few minutes, you should be able to navigate to http://localhost:8153/go/pipelines on your local
@@ -63,13 +63,13 @@ reset the box to it's orginal state if you need to!
 
 The box will be updated as new things come out, but as of this writing...
 
-* Go 15.2 Server
-* Go 15.2 Agent
+* GoCD 15.2 Server
+* GoCD 15.2 Agent
 * Pipelines which are simulated using empty Rake targets and /bin/echo commands
 
 <br>
 
-As always, Go questions can be asked at [https://groups.google.com/forum/#!forum/go-cd](https://groups.google.com/forum/#!forum/go-cd)
+As always, GoCD questions can be asked at [https://groups.google.com/forum/#!forum/go-cd](https://groups.google.com/forum/#!forum/go-cd)
 
 
 

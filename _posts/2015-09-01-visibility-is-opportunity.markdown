@@ -115,7 +115,7 @@ Then I ran same script on more builds. The outputs were similar, just different 
 As [GoCD] random picked up build VMs to run any job, it gave me a clue that maybe its build VM performance issue.
 So I wrote another [script](https://github.com/ThoughtWorksStudios/goapi/blob/master/examples/agent_stats.rb) to build the following chart:
 
-![Go build agent runtime](/images/vms-build-time.jpg)
+![GoCD build agent runtime](/images/vms-build-time.jpg)
 
 It's clear there are some VMs are consistent slower than others.
 Then Barrow Kwan found out 2 of our VMs hosts were overloaded when we increased vCPUs on our VMs.

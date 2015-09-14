@@ -7,9 +7,9 @@ published: true
 author: Ketan Padegaonkar
 ---
 
-With the upcoming release of Go 15.2, we'd like to begin unifying and improving some of the existing APIs that Go supports.
+With the upcoming release of GoCD 15.2, we'd like to begin unifying and improving some of the existing APIs that GoCD supports.
 
-Go's APIs are fairly old, have [inconsistent and unpredictable content types](https://github.com/gocd/gocd/issues/572) (csv, xml, json, plain text).
+GoCD's APIs are fairly old, have [inconsistent and unpredictable content types](https://github.com/gocd/gocd/issues/572) (csv, xml, json, plain text).
 
 Going forward, we would like to announce an ongoing effort to improve these APIs to use something that is more modern, easy to discover, learn and build API clients for.
 

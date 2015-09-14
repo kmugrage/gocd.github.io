@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Go Plugin Competition
+title: GoCD Plugin Competition
 status: public
 type: post
 published: true
-author: Go Team
+author: GoCD Team
 ---
 
 Are you up for the challenge?
 
-Do you have what it takes to build an awesome Go plugin? Here’s your chance to put your development skills to the test. ThoughtWorks invites you to the first ever Go plugin challenge. We want you to build a plugin that showcases the best of Go. Have you been playing with an idea on the side or has your organisation developed something really cool that others would love? This is your chance to showcase it and win a prize!
+Do you have what it takes to build an awesome GoCD plugin? Here’s your chance to put your development skills to the test. ThoughtWorks invites you to the first ever GoCD plugin challenge. We want you to build a plugin that showcases the best of GoCD. Have you been playing with an idea on the side or has your organisation developed something really cool that others would love? This is your chance to showcase it and win a prize!
 [Read more...](http://thght.works/1CdY4aq)
 
 Important Dates
