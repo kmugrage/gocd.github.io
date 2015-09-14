@@ -3,7 +3,7 @@ layout: default
 title:  Events
 title_tag: GoCD Events & Learning Sessions
 meta_tag_description: GoCD events and learning sessions
-meta_tag_keywords: go events, learning session, continuous delivery, open source, go cd
+meta_tag_keywords: go events, learning session, continuous delivery, open source, gocd, go cd
 ---
 
 #### Upcoming Events
