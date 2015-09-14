@@ -18,7 +18,7 @@ If you want to use an alternative JRE (must satisfy GoCD's JRE requirements) aft
 the "wrapper.java.command" key's value in the ```[InstallDirectory]\config\wrapper-agent.conf``` file  to point to a
 different JRE. You will then need to restart the GoCD agent service to start using the alternative JRE.
 
-The ```[InstallDirectory]``` refers to the GoCD agents installation directory which by default is ```"C:\Program Files (x86)\GoCD Agent"```.
+The ```[InstallDirectory]``` refers to the GoCD agents installation directory which by default is ```"C:\Program Files (x86)\Go Agent"```.
 
 
 ### Pre-requisites for running PowerShell task commands
