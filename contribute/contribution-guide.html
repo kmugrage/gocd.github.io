@@ -115,7 +115,7 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
         <li>Describe what you were doing when you ran into the issue</li>
         <li>Describe what you expected to happen</li>
         <li>Describe what actually happened</li>
-        <li>Let us know exactly which version of Go you're using (it's on the bottom of every page)
+        <li>Let us know exactly which version of GoCD you're using (it's on the bottom of every page)
 
             <ul>
                 <li>By the way, if you're using a very old version it's possible the bug has already been fixed.</li>
@@ -154,7 +154,7 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
 
     <a name="fork"></a><h4>Fork</h4>
 
-    <p>Navigate to the <a href="https://github.com/gocd/gocd">Go GitHub repository</a> and press "Fork" in the upper right hand corner.</p>
+    <p>Navigate to the <a href="https://github.com/gocd/gocd">GoCD GitHub repository</a> and press "Fork" in the upper right hand corner.</p>
 
     <p>Add the new remote to your local repository on your local machine:</p>
     <div class="highlight">
@@ -166,7 +166,7 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
         <code class="text language-text" data-lang="text">$ git push mine
     </code>
     </div>
-    <p>You might have cloned your forked repository on your machine and might want to add the original Go repository as a remote instead, if that's the case here's what you have to do.</p>
+    <p>You might have cloned your forked repository on your machine and might want to add the original GoCD repository as a remote instead, if that's the case here's what you have to do.</p>
 
     <p>In the directory you cloned your fork:</p>
     <div class="highlight">
@@ -231,11 +231,11 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
     </ul>
 
     <a name="try-not-to-break-the-build"></a><h4>Try not to break the build</h4>
-    <p>On Go we follow TDD. Which means most of the code is covered with tests. When you make a change to the code expect tests to fail!</p>
+    <p>On GoCD we follow TDD. Which means most of the code is covered with tests. When you make a change to the code expect tests to fail!</p>
     <p>You will need to make sure your code does not break anything, which means running tests that are around your code. We know this does not guarantee all tests will pass but we expect you to have done this before issuing a pull request.</p>
 
     <a name="issue-pull-request"></a><h4>Issue Pull Request</h4>
-    <p>Navigate to the Go repository you just pushed to (e.g. https://github.com/your-user-name/gocd) and click on "Pull Requests" seen in the right panel. On the next page, press "New pull request" in the upper right hand corner.</p>
+    <p>Navigate to the GoCD repository you just pushed to (e.g. https://github.com/your-user-name/gocd) and click on "Pull Requests" seen in the right panel. On the next page, press "New pull request" in the upper right hand corner.</p>
     <p>Click on "Edit", if you need to change the branches being compared (it compares "master" by default) and press "Click to create a pull request for this comparison".</p>
     <p>Ensure the changesets you introduced are included. Fill in some details about your potential patch including a meaningful title. When finished, press "Send pull request". The committers will be notified about your submission.</p>
 
@@ -249,7 +249,7 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
     <a name="get-feedback"></a><h4>Get Feedback</h4>
     <p>Most pull requests will go through a few iterations before they get merged. Different contributors will sometimes have different opinions, and often patches will need to be revised before they can get merged.</p>
 
-    <p>Some contributors to Go have email notifications from GitHub turned on, but others do not. Don't despair! Sometimes it's quick, sometimes it's slow. Such is the open source life.</p>
+    <p>Some contributors to GoCD have email notifications from GitHub turned on, but others do not. Don't despair! Sometimes it's quick, sometimes it's slow. Such is the open source life.</p>
 
     <p>If it's been over a week, and you haven't heard anything, you might want to try and nudge things along. You can use the <a href="https://groups.google.com/forum/#!forum/go-cd-dev">developer's group</a> mailing list for this. You can also leave another comment on the pull request.</p>
 
@@ -262,7 +262,7 @@ meta_tag_keywords: code review process, open source contribution guide, code sub
     <h3><a name="after-commit-is-merged"></a>After Commit is merged</h3>
 
     <a name="build"></a><h4>Build</h4>
-    <p>We build Go using Go! So once your commit is merged relevant pipelines get triggered. You can track them <a href="https://build.go.cd/">here</a>.
+    <p>We build GoCD using Go! So once your commit is merged relevant pipelines get triggered. You can track them <a href="https://build.go.cd/">here</a>.
     <br>Use following credentials to login:</p>
     <ul>
         <li>username: view</li>

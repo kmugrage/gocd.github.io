@@ -9,7 +9,7 @@ meta_tag_keywords: contributor license agreement, cla, thoughtworks, contributor
 
 ### What's this all about then?
 
-By agreeing to this Contributor License Agreement (CLA), you are saying that you give ThoughtWorks (a major sponsor of Go development) permission to distribute your contributions (or the contributions of your organization's employees) under the terms of ThoughtWorks' choice.  You are also promising that you have the necessary rights to give ThoughtWorks this permission.  In return for this, ThoughtWorks is promising to you that if it distributes your contributions, ThoughtWorks will distribute them under an OSI-approved open source license.  The CLA also says that you do not make any warranties or have any support obligations regarding your contributions.
+By agreeing to this Contributor License Agreement (CLA), you are saying that you give ThoughtWorks (a major sponsor of GoCD development) permission to distribute your contributions (or the contributions of your organization's employees) under the terms of ThoughtWorks' choice.  You are also promising that you have the necessary rights to give ThoughtWorks this permission.  In return for this, ThoughtWorks is promising to you that if it distributes your contributions, ThoughtWorks will distribute them under an OSI-approved open source license.  The CLA also says that you do not make any warranties or have any support obligations regarding your contributions.
 
 ### The legal stuff
 
