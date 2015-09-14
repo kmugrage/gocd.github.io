@@ -1,8 +1,8 @@
 ---
 layout: default
 title:  Events
-title_tag: Go CD Events & Learning Sessions
-meta_tag_description: Go CD events and learning sessions
+title_tag: GoCD Events & Learning Sessions
+meta_tag_description: GoCD events and learning sessions
 meta_tag_keywords: go events, learning session, continuous delivery, open source, go cd
 ---
 

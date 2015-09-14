@@ -2,7 +2,7 @@
 layout: default
 title: Contributors
 subtitle: People who helped taking Go forward
-title_tag: Community Contributor | Open Source Contributor | GO CD
+title_tag: Community Contributor | Open Source Contributor | GoCD
 meta_tag_description: Contributors who helped with code, ideas, documentation, time and energy to take GO open source project forward are listed here
 meta_tag_keywords: contributors, community, open source, continuous delivery go
 ---
