@@ -1,0 +1,41 @@
+---
+layout: video
+title: "Command Repo"
+title_tag: "GoCD - Command Repo"
+meta_tag_description: "GoCD - Command Repo"
+meta_tag_keywords: gocd, go, videos, help, continuous delivery
+---
+
+<div id="wistia_cvfvf1z348" class="wistia_embed" style="width:640px;height:388px;">
+  <div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <meta itemprop="name" content="Go #6 - Command Repo">
+      <meta itemprop="duration" content="PT1M59S">
+        <meta itemprop="thumbnailUrl" content="https://embed-ssl.wistia.com/deliveries/29f58e78f2b552f698295fcf6ba2a6f7d162dd23.bin">
+          <meta itemprop="contentURL" content="https://embed-ssl.wistia.com/deliveries/365ff2fbb42830ec752815c8270aedbbc4db870d.bin">
+            <meta itemprop="embedURL" content="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04&amp;autoPlay=false&amp;banner=false&amp;controlsVisibleOnLoad=true&amp;customColor=fe7600&amp;endVideoBehavior=default&amp;fullscreenDisabled=true&amp;hdUrl%5B2pass%5D=true&amp;hdUrl%5Bext%5D=flv&amp;hdUrl%5Bheight%5D=720&amp;hdUrl%5Bsize%5D=39042793&amp;hdUrl%5Btype%5D=hdflv&amp;hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F7be0d98e076766e043af1424a8dc44419880f61c.bin&amp;hdUrl%5Bwidth%5D=1280&amp;mediaDuration=119.0&amp;playButtonVisible=true&amp;showPlayButton=true&amp;showPlaybar=true&amp;showVolume=true&amp;stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F29f58e78f2b552f698295fcf6ba2a6f7d162dd23.jpg%3Fimage_crop_resized%3D640x360&amp;unbufferedSeek=false&amp;videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F365ff2fbb42830ec752815c8270aedbbc4db870d.bin">
+              <meta itemprop="uploadDate" content="2013-12-12T01:07:38Z">
+                <object id="wistia_cvfvf1z348_seo" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" style="display:block;height:360px;position:relative;width:640px;">
+                  <param name="movie" value="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04">
+                    <param name="allowfullscreen" value="true">
+                      <param name="allowscriptaccess" value="always">
+                        <param name="bgcolor" value="#000000">
+                          <param name="wmode" value="opaque">
+                            <param name="flashvars" value="autoPlay=false&amp;banner=false&amp;controlsVisibleOnLoad=true&amp;customColor=fe7600&amp;endVideoBehavior=default&amp;fullscreenDisabled=true&amp;hdUrl%5B2pass%5D=true&amp;hdUrl%5Bext%5D=flv&amp;hdUrl%5Bheight%5D=720&amp;hdUrl%5Bsize%5D=39042793&amp;hdUrl%5Btype%5D=hdflv&amp;hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F7be0d98e076766e043af1424a8dc44419880f61c.bin&amp;hdUrl%5Bwidth%5D=1280&amp;mediaDuration=119.0&amp;playButtonVisible=true&amp;showPlayButton=true&amp;showPlaybar=true&amp;showVolume=true&amp;stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F29f58e78f2b552f698295fcf6ba2a6f7d162dd23.jpg%3Fimage_crop_resized%3D640x360&amp;unbufferedSeek=false&amp;videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F365ff2fbb42830ec752815c8270aedbbc4db870d.bin">
+                              <embed src="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04" allowfullscreen="true" allowscriptaccess="always" bgcolor="#000000" flashvars="autoPlay=false&amp;banner=false&amp;controlsVisibleOnLoad=true&amp;customColor=fe7600&amp;endVideoBehavior=default&amp;fullscreenDisabled=true&amp;hdUrl%5B2pass%5D=true&amp;hdUrl%5Bext%5D=flv&amp;hdUrl%5Bheight%5D=720&amp;hdUrl%5Bsize%5D=39042793&amp;hdUrl%5Btype%5D=hdflv&amp;hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F7be0d98e076766e043af1424a8dc44419880f61c.bin&amp;hdUrl%5Bwidth%5D=1280&amp;mediaDuration=119.0&amp;playButtonVisible=true&amp;showPlayButton=true&amp;showPlaybar=true&amp;showVolume=true&amp;stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F29f58e78f2b552f698295fcf6ba2a6f7d162dd23.jpg%3Fimage_crop_resized%3D640x360&amp;unbufferedSeek=false&amp;videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F365ff2fbb42830ec752815c8270aedbbc4db870d.bin" name="wistia_cvfvf1z348_html" style="display:block;height:100%;position:relative;width:100%;" type="application/x-shockwave-flash" wmode="opaque"/>
+                            </param>
+                            <p/>
+                            <noscript itemprop="description">Go #6 - Command Repo</noscript>
+                          </param>
+                        </param>
+                      </param>
+                    </param>
+                  </param>
+                </object>
+              </meta>
+            </meta>
+          </meta>
+        </meta>
+      </meta>
+    </meta>
+  </div>
+</div>
